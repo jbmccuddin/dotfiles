@@ -1,9 +1,13 @@
 set relativenumber
+set splitright
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 imap kj <Esc>
 
 "Fuzzy search for files
-map ; :FZF<CR>
+map ; :NERDTree<CR>
 
 " Put plugins in here 
 call plug#begin('~/.vim/plugged')
